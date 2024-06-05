@@ -1,0 +1,59 @@
+
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.nav-container{
+    background-color: blue;
+  
+   
+}
+
+
+
+.navigation > ul{
+    list-style: none;
+    position: relative;
+
+}
+
+.navigation  ul li{
+    display: inline-block;
+    position: relative;
+
+}
+
+.navigation  ul li a{
+   text-decoration: none;
+ font-size: 17px;
+ color: #000;
+ font-family: tahoma;
+ padding: 12px 25px;
+ 
+
+
+}
+
+.navigation ul li ul.dropdown{
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: goldenrod;
+
+}
+
+.navigation ul li a:hover{
+    background-color: rgb(32, 30, 27);
+}
+
+.navigation ul li:hover ul.dropdown
+
+{
+    display: block;
+}
+
